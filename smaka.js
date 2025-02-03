@@ -5,7 +5,7 @@ async function checkGluten() {
     resultDiv.innerHTML = "Analyzing... ⏳";
     
     try {
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=<your-api-key>`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=<AIzaSyD3IEk_nnbbjX9U1xBzBfpdlg12jgJBWcA>`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
